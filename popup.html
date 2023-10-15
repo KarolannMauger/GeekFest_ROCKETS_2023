@@ -16,16 +16,19 @@
           <td class="name">Clear cookies</td>
           <td>
             <div id="clear_cookies" class="button_click">
-              <input type="button" id="btn"  value = "Check Cookies"/>
-              <input type="button" id="btn"  value = "Remove Third-Party Cookies"/>
-              <input type="button" id="btn"  value = "Allow Cookies"/>
-              <input type="button" id="btn"  value = "Deny Cookies"/>
+              <button id="checkCookies">Check Cookies</button>
+<button id="removeThirdPartyCookies">Remove Third-Party Cookies</button>
+
+<button id="allowCookies">Allow Cookies</button>
+<button id="denyCookies">Deny Cookies</button>
             </div>
           </td>
         </tr>
       </tbody>
     </table>
+    <div id="cookieList"></div>
     <script src="popup.js"></script>
     <script src="background.js"></script>
   </body>
+
 </html>
