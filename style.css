@@ -1,0 +1,38 @@
+tbody{
+    font-size: 20px;
+}
+.section{
+    display: grid;
+}
+.name{
+    padding-right: 30px;
+}
+.extension{
+    border: 2px black solid; 
+    border-radius: 5px; 
+    padding: 5px;
+}
+.button_click{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+#https_{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+#btn{
+    margin-bottom: 6px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+}
+#btn:hover{
+    color: white;
+}
+
+#clear_cookies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

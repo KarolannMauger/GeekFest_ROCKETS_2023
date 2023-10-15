@@ -3,7 +3,7 @@
   "name": "Security Extension",
   "version": "1.0",
   "description": "Extension pour bloquer les cookies de suivi et vérifier les sites malveillants",
-  "permissions": ["cookies"],
+  "permissions": ["cookies", "activeTab"],
   "action": {
     "default_popup": "popup.html"
   },

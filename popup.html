@@ -2,15 +2,30 @@
 <html>
   <head>
     <title>Popup de l'extension de sécurité</title>
-    <style>
-
-    </style>
-    <script src="popup.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    
   </head>
   <body>
-    <h1>Extension de sécurité</h1>
-    <button id="checkCookies">Vérifier les cookies</button>
-
-
+    <table>
+      <tbody>
+        <tr class="section">
+          <td class="name">HTTPS</td>
+          <td><div id="https_" class="extension"></div></td>
+        </tr>
+        <tr class="section">
+          <td class="name">Clear cookies</td>
+          <td>
+            <div id="clear_cookies" class="button_click">
+              <input type="button" id="btn"  value = "Check Cookies"/>
+              <input type="button" id="btn"  value = "Remove Third-Party Cookies"/>
+              <input type="button" id="btn"  value = "Allow Cookies"/>
+              <input type="button" id="btn"  value = "Deny Cookies"/>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="popup.js"></script>
+    <script src="background.js"></script>
   </body>
 </html>
