@@ -2,10 +2,13 @@
   "manifest_version": 3,
   "name": "Cookie Manager",
   "version": "1.0",
-  "permissions": ["tabs","privacy", "cookies",  "storage"],
+
+  "description": "Extension pour bloquer les cookies de suivi et vérifier les sites malveillants",
+  "permissions": ["tabs","privacy", "cookies",  "storage", "activeTab"],
   "host_permissions": [
     "<all_urls>"
   ],
+
   "action": {
     "default_popup": "popup.html"
   },
