@@ -1,16 +1,18 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Popup de l'extension de sécurité</title>
-    <style>
+<head>
+  <title>Cookie Manager</title>
+  <script src="popup.js"></script>
+</head>
+<body>
+<h1>Cookie Manager</h1>
+<button id="checkCookies">Check Cookies</button>
+<button id="removeThirdPartyCookies">Remove Third-Party Cookies</button>
 
-    </style>
-    <script src="popup.js"></script>
-  </head>
-  <body>
-    <h1>Extension de sécurité</h1>
-    <button id="checkCookies">Vérifier les cookies</button>
+<button id="allowCookies">Allow Cookies</button>
+<button id="denyCookies">Deny Cookies</button>
 
 
-  </body>
+<div id="cookieList"></div>
+</body>
 </html>

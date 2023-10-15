@@ -1,17 +1,21 @@
 {
   "manifest_version": 3,
-  "name": "Security Extension",
+  "name": "Cookie Manager",
   "version": "1.0",
-  "description": "Extension pour bloquer les cookies de suivi et vérifier les sites malveillants",
-  "permissions": ["cookies"],
+  "permissions": ["tabs","privacy", "cookies",  "storage"],
+  "host_permissions": [
+    "<all_urls>"
+  ],
   "action": {
     "default_popup": "popup.html"
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
   "background": {
     "service_worker": "background.js"
-  },
-  "host_permissions": [
-    "http://*/*",
-    "https://*/*"
-  ]
+  }
 }
