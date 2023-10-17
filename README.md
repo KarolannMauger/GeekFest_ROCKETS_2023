@@ -1,2 +1,2 @@
-# GeekFest_ROCKETS_2023
-Voici le GitHub pour le GeekFest 2023 de l'équipe ROCKETS
+# GeekFest_ROCKETS_2023 eaSecuriT
+Voici une extension Google Chrome qui a pour but d'avertir l'utilisateur s'il est en sécurité en naviguant sur internet. Notre extension comporte trois outils pour protéger l'utilisateur sur internet. Le premier outil est de vérifier si le site est soumis au protocole HTTPS ou non. L'utilisateur peut savoir s'il navigue sur HTTPS à l'aide d'un code de couleur vert et rouge. Notre deuxième outil sert à enlever et gérer les témoins. En effet, celui-ci permet d’enlever les third-party témoins, de voir les témoins actifs et d'accepter ou de refuser les témoins sur une page. Notre troisième outil est de supprimer automatiquement les témoins après une certaine période.  
